@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
+    <header>
+        <div class="logo">Graphic Designer</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <button class="back-link" onclick="goBack()"><i class="fa-solid fa-arrow-left"></i> ย้อนกลับ</button>
+
+        <h1 class="page-title">ติดต่อฉัน (Contact Me)</h1>
+
+        <div class="contact-box">
+            <p>หากคุณสนใจร่วมงาน หรือต้องการสอบถามข้อมูลเพิ่มเติม สามารถติดต่อได้ที่ช่องทางด้านล่างนี้</p>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>@vijaiiii</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@yourdomain.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+66 8X-XXX-XXXX</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <button id="backToTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
