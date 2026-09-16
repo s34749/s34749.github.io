@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>นายประเสริฐ จริยา</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #7636b0;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        .card {
-            background: purple;
-            padding: 30px;
-            border-radius: 50px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            max-width: 500px;
-            margin: 0 auto;
-        }
-        h1 { color: #2c3e50; }
-        p { font-size: 18px; line-height: 1.6; }
-    </style>
+    <title>Graphic Designer | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="card">
-        <h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน 👋</h1>
-        <p>สวัสดีครับ! ผมชื่อ <strong>ประเสริฐ (Prasert)</strong></p>
-        <p>ขณะนี้กำลังศึกษา/สนใจด้าน หลักสูตรศิลปศาสตรบัณฑิต (ศศ.บ.) สาขาวิชาภาษาจีนเพื่อการสื่อสาร ภาคปกติ (รูปแบบที่ 1)</p>
-        <p>นี่คือเว็บไซต์แรกของผมที่โฮสต์บน GitHub Pages!</p>
-<a href="portfolio.html" style="display:inline-block; background:#3498db; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; margin-top:15px;">👉 ดูแฟ้มสะสมงานของผม</a>
-    </div>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">Graphic Designer</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hero Section (แบบเดียวกับในรูปตัวอย่าง) -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <p class="greeting">Hi i'm</p>
+            <h1>Graphic<br><span>Designer</span></h1>
+            <a href="portfolio.html" class="btn-more">View More</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop" alt="Profile Image">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
