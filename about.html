@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer | About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
+    <header>
+        <div class="logo">Graphic Designer</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <!-- ปุ่มย้อนกลับไปหน้าแรก -->
+        <button class="back-link" onclick="goBack()"><i class="fa-solid fa-arrow-left"></i> ย้อนกลับ</button>
+
+        <h1 class="page-title">เกี่ยวกับฉัน (About Me)</h1>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <h2>สวัสดีครับ/ค่ะ ฉันคือ Graphic Designer</h2>
+                <p>ฉันมีความหลงใหลในการสร้างสรรค์งานออกแบบกราฟิก อัตลักษณ์ของแบรนด์ (Branding) สื่อโฆษณาออนไลน์ และ UI/UX Design ด้วยการผสมผสานความคิดสร้างสรรค์เข้ากับจุดประสงค์ทางธุรกิจอย่างลงตัว</p>
+                
+                <h3>ทักษะและความเชี่ยวชาญ (Skills)</h3>
+                <ul class="skills-list">
+                    <li><i class="fa-solid fa-check"></i> Adobe Photoshop / Illustrator</li>
+                    <li><i class="fa-solid fa-check"></i> Figma / UI Design</li>
+                    <li><i class="fa-solid fa-check"></i> Branding & Logo Design</li>
+                    <li><i class="fa-solid fa-check"></i> Social Media Graphic Art</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <button id="backToTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
